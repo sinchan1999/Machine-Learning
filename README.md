@@ -1,24 +1,12 @@
 # Machine-Learning
-Includes various ML algos Hands On applications. Tpics included are listed below:
-
-## [Linear Regression](https://github.com/sinchan1999/Machine-Learning/tree/main/Regression/Linear_Regression)
-
-1: EDA_And_FE_Algerian_Forest_Fires
-
---  EDA & FE
-
-2:Model Training
-
---  Regularization Techniques: LASSO, RIDGE & ELASTICNET.
+Includes various ML algos Hands On applications. Sub-Topics or basic Concepts included are listed below:
 
 
-## [Logistic Regression](https://github.com/sinchan1999/Machine-Learning/tree/main/Regression/Logistic_Regression)
+1: [EDA & FE](https://github.com/sinchan1999/Machine-Learning/blob/main/Regression/Linear_Regression/EDA_And_FE_Algerian_Forest_Fires.ipynb)
 
-1: Binary Logistic Regression
+2: [Regularization Techniques: LASSO, RIDGE & ELASTICNET.](https://github.com/sinchan1999/Machine-Learning/blob/main/Regression/Linear_Regression/3.0-Model%20Training.ipynb)
 
---  Cross Validation
-
---  Hyperparameter Tuning : GridSearchCV & Randomized SearchCV
+3: [Hyperparameter Tuning : GridSearchCV & Randomized SearchCV](https://github.com/sinchan1999/Machine-Learning/blob/main/Regression/Logistic_Regression/Binary%20Logistic%20Regression.ipynb)
 
 
 
