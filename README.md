@@ -8,5 +8,7 @@ Includes various ML algos Hands On applications. Sub-Topics or basic Concepts in
 
 3: [Hyperparameter Tuning : GridSearchCV & Randomized SearchCV](https://github.com/sinchan1999/Machine-Learning/blob/main/Regression/Logistic_Regression/Binary%20Logistic%20Regression.ipynb)
 
+4: [Confusion Matrix, Accuracy, Precision, Reacall & F1 score](https://github.com/sinchan1999/Machine-Learning/blob/main/Regression/Logistic_Regression/Binary%20Logistic%20Regression.ipynb)
+
 
 
