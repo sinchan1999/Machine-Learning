@@ -12,6 +12,7 @@ Includes various ML algos Hands On applications. Tpics included are listed below
 ## Logistic Regression
 1: Binary Logistic Regression
 --  Cross Validation
+
 --  Hyperparameter Tuning : GridSearchCV & Randomized SearchCV
 
 
