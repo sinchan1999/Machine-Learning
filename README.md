@@ -11,7 +11,7 @@ Includes various ML algos Hands On applications. Tpics included are listed below
 --  Regularization Techniques: LASSO, RIDGE & ELASTICNET.
 
 
-## Logistic Regression
+[## Logistic Regression](url)
 1: Binary Logistic Regression
 
 --  Cross Validation
