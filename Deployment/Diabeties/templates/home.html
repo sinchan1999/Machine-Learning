@@ -1,35 +1,82 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
   <title>ML API</title>
-
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    .login {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .login h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login form {
+      margin-top: 20px;
+    }
+    .login label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .login input[type="text"] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .login button[type="submit"] {
+      width: 100%;
+      height: 40px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .login button[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+  </style>
 </head>
 
 <body>
- <div class="login">
-	<h1>Diabetes Prediction</h1>
+  <div class="login">
+    <h1>Diabetes Prediction</h1>
     <form action="{{ url_for('predict_datapoint')}}" method="post">
-      <input type="text" name="Pregnancies" placeholder="Pregnancies" required="required" /><br>
-    	<input type="text" name="Glucose" placeholder="Glucose" required="required" /><br>
-        <input type="text" name="BloodPressure" placeholder="BloodPressure" required="required" /><br>
-        <input type="text" name="SkinThickness" placeholder="SkinThickness" required="required" /><br>
-        <input type="text" name="Insulin" placeholder="Insulin" required="required" /><br>
-        <input type="text" name="BMI" placeholder="BMI" required="required" /><br>
-        <input type="text" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction" required="required" /><br>
-        <input type="text" name="Age" placeholder="Age" required="required" /><br>
-
-
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+      <label for="Pregnancies">Pregnancies:</label>
+      <input type="text" id="Pregnancies" name="Pregnancies" placeholder="Pregnancies" required="required" />
+      <label for="Glucose">Glucose:</label>
+      <input type="text" id="Glucose" name="Glucose" placeholder="Glucose" required="required" />
+      <label for="BloodPressure">Blood Pressure:</label>
+      <input type="text" id="BloodPressure" name="BloodPressure" placeholder="BloodPressure" required="required" />
+      <label for="SkinThickness">Skin Thickness:</label>
+      <input type="text" id="SkinThickness" name="SkinThickness" placeholder="SkinThickness" required="required" />
+      <label for="Insulin">Insulin:</label>
+      <input type="text" id="Insulin" name="Insulin" placeholder="Insulin" required="required" />
+      <label for="BMI">BMI:</label>
+      <input type="text" id="BMI" name="BMI" placeholder="BMI" required="required" />
+      <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function:</label>
+      <input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction" required="required" />
+      <label for="Age">Age:</label>
+      <input type="text" id="Age" name="Age" placeholder="Age" required="required" />
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
-<body>
-
-   <br>
-   <br>
-
-
- </div>
- {{result}}
-
+  </div>
+  <br>
+  <br>
+  {{result}}
 </body>
 </html>

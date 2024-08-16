@@ -9,7 +9,7 @@ application = Flask(__name__)
 app=application
 
 scaler=pickle.load(open("Model/standardScalar.pkl", "rb"))
-model = pickle.load(open("Model/modelForPrediction.pkl", "rb")) # Diabeties\Model\modelForPrediction.pkl
+model = pickle.load(open("Model/modelForPrediction.pkl", "rb")) 
 
 ## Route for homepage
 
